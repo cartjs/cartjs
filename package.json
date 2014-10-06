@@ -1,0 +1,36 @@
+{
+  "name": "cart.js",
+  "version": "0.0.1",
+  "description": "A simple cart powered by JavaScript to empower your commerce applications.",
+  "main": "index.html",
+  "scripts": {
+    "build": "browserify dist/app.js -o cart.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cartjs/cartjs"
+  },
+  "keywords": [
+    "cart",
+    "ecommerce",
+    "javascript",
+    "cart",
+    "js",
+    "cart",
+    "cart",
+    "in",
+    "javascript"
+  ],
+  "author": "Guilherme Oderdenge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chiefGui/cartjs/issues"
+  },
+  "homepage": "https://github.com/chiefGui/cartjs",
+  "devDependencies": {
+    "browserify": "^6.0.2"
+  },
+  "dependencies": {
+    "underscore": "^1.7.0"
+  }
+}

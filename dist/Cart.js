@@ -5,8 +5,8 @@ function Cart (storage) {
   this.productStorage = storage || new ArrayProductStorage();
 }
 
-Cart.prototype.get = function (rules) {
-  return this.productStorage.get(rules);
+Cart.prototype.get = function (id) {
+  return this.productStorage.get(id);
 };
 
 Cart.prototype.list = function () {

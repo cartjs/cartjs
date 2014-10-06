@@ -1,7 +1,8 @@
-var Item = require ('./Item.js');
+var Item                = require ('./Item.js');
+var ArrayProductStorage = require ('./Storage/ArrayProductStorage');
 
-function Cart (options) {
-  this.productStorage = options.engine;
+function Cart (storage) {
+  this.productStorage = storage || new ArrayProductStorage();
 
   this.get = function (rules) {
     return this.productStorage.get(rules);

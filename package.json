@@ -4,7 +4,7 @@
   "description": "A simple cart powered by JavaScript to empower your commerce applications.",
   "main": "index.html",
   "scripts": {
-    "build": "browserify dist/app.js -o cart.js"
+    "build": "browserify src/app.js -o dist/cart.js"
   },
   "repository": {
     "type": "git",

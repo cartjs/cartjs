@@ -1,5 +1,5 @@
 var Generic   = require ('./engines/Generic')
-    , Cart    = require ('./cart.js');
+    , Cart    = require ('./Cart.js');
 
 var cart = new Cart({ engine: new Generic });
 

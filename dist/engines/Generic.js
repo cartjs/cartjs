@@ -1,4 +1,4 @@
-var ProductStorage = require ('./productStorage')
+var ProductStorage = require ('./ProductStorage')
     , _            = require ('underscore');
 
 function Generic () {

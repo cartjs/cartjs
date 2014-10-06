@@ -1,4 +1,4 @@
-var Item = require ('./item.js');
+var Item = require ('./Item.js');
 
 function Cart (options) {
   this.count = 0;

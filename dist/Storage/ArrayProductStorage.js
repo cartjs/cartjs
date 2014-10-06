@@ -21,11 +21,8 @@ ArrayProductStorage.prototype.add = function (item) {
   this.items.push(item);
 };
 
-ArrayProductStorage.prototype.remove = function (id) {
-  this.items = _.without(
-    this.items,
-    this.get(id)
-  );
+ArrayProductStorage.prototype.remove = function (item) {
+  this.items = _.without(this.items, item);
 };
 
 module.exports = ArrayProductStorage;
